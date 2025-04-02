@@ -12,6 +12,7 @@ import ProductDetails from '../pages/ProductDetails'
 import Cart from '../pages/Cart'
 import SearchProduct from '../pages/SearchProduct'
 import AiCustomizer from '../pages/AiCustomizer'
+import Customization from '../pages/Customization'
 
 const router = createBrowserRouter([
     {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
             {
                 path : "/ai-customizer",
                 element : <AiCustomizer/>
+            },
+            {
+                path : "/customization",
+                element : <Customization/>
             },
             {
                 path : "admin-panel",

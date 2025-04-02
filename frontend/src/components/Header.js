@@ -76,6 +76,9 @@ const Header = () => {
 
     {/* Right Section */}
     <div className="flex items-center gap-7">
+
+    
+
       
       {/* AI Customizer */}
       <Link
@@ -88,6 +91,12 @@ const Header = () => {
              before:blur-md before:opacity-20 before:rounded-full"
 >
   AI Customizer
+</Link>
+
+<Link
+  to="/customization"
+>
+  Customization
 </Link>
 
 
