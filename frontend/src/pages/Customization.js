@@ -58,7 +58,7 @@ const Customization = () => {
   
           try {
             // Step 3: Verify payment in the backend
-            const verifyRes = await fetch(`${import.meta.env.VITE_BACKEND_HOST_URL}/api/verify`, {
+            const verifyRes = await fetch(`http://localhost:8080/api/verify`, {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
